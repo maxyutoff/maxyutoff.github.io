@@ -8,6 +8,16 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 100%;
 }
+/** HEADER **/
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
 
 h2{
   position: absolute;
