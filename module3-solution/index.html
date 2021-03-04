@@ -17,34 +17,40 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
 <body>
-  <header>
+  <header class="nav-header">
     <nav id="header-nav" class="navbar navbar-default">
       <div class="container">
         <div class="navbar-header">
-          <a href="index.html" class="pull-left visible-md visible-lg">
-            <div id="logo-img"></div>
-          </a>
-
           <div class="navbar-brand">
-            <a href="index.html"><h1>David Chu's China Bistro</h1></a>
-            <p>
-              <img src="images/star-k-logo.png" alt="Kosher certification">
-              <span>Kosher Certified</span>
-            </p>
+            <p class="nav-brand">Food, LLC</p>
           </div>
 
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="true">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-
+        </div>
+        
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+            <li class="text-center">
+              <a href="#c"><p class="i">Chicken</p></a>
+              <hr class="visible-xs">
+            </li>            
+            <li class="text-center beef-i">
+              <a href="#b"><p class="i">Beef</p></a>
+              <hr class="visible-xs">
+            </li>
+            <li class="text-center sushi-i">
+              <a href="#s"><p class="i">Sushi</p></a>
+            </li>
+          </ul> 
         </div>
       </div>
     </nav>
-
-  </header>
+  	</header>
 
 <h1>Our Menu</h1>
     <div class="col-lg-4 col-md-6 col-sm-12">
